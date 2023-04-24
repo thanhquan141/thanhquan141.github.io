@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopDunk</title>
+    <link rel="stylesheet" href="/CSS/main_layout.css">
+    <link rel="stylesheet" href="/CSS/grid_system.css">
+    <link rel="stylesheet" href="/CSS/setup_tablet_mobile.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/CSS/footer.css">
+</head>
+<body>
+    <div class="search">
+        <div class="search_input">
+            <div class="search_input-form">
+                <input type="text" class="input-form-ip" placeholder="Nhập sản phẩm cần tìm!">
+            </div>
+        </div>
+        <div class="container_input"></div>
+    </div>
+    <div class="header" id="header">
+        <div class="header-content content">
+
+            <i class='bx bx-menu header-icon'></i>
+            <i class='bx bx-x header-icon' ></i>
+
+            <div class="header-logo">
+                <a href="/HTML/main_layout.html"><img src="/photos/logo_header.png" alt=""></a>
+            </div>
+
+            <div class="header-menu">
+                <ul class="top-menu">
+                    <li>
+                        <a href="/HTML/product_iphone.html">iPhone</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_ipad.html">iPad</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_mac.html">Mac</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_">Watch</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_">Âm thanh</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_">Phụ kiện</a>
+                    </li>
+                    <li>
+                        <a href="">Dịch vụ</a>
+                    </li>
+                    <li>
+                        <a href="">Trả góp</a>
+                    </li>
+                    <li>
+                        <a href="">Flash sale</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-link">
+                <div class="header-icon header-icon-search">
+                    <i class='bx bx-search-alt' ></i>
+                </div>
+                <a class="link-icon"href="/HTML/Cart.html"><div class="header-icon header-icon-bag">
+                   <i class='bx bx-shopping-bag' ></i>
+                   <span class="header-icon-bag-number">0</span>
+                   <div class="header-icon-bag-msg">Bạn không có sản phẩm nào trong giỏ hàng của bạn</div>
+                </div></a>
+                <div class="header-icon header-icon-user">
+                   <a class="link-icon"href=""> <i class='bx bx-user'></i></a>
+                   <ul class="header-icon-user-list">
+                        <li class="user-list">
+                            <a href="/HTML/form_register.html">Tạo tài khoản ngay</a>
+                        </li>
+                        <li class="user-list">
+                            <a href="/HTML/form_login.html?">Đăng nhập</a>
+                        </li>
+                        <li class="list-icon-down user-list">
+                            <a href="">Ngôn ngữ</a>
+                            <i class='bx bx-chevron-down'></i>
+                        </li>
+
+
+                        <div class="language">
+                            <div class="language-viet language-lg">
+                                <img src="/photos/flagVN.png" alt="">
+                                Tiếng Việt
+                            </div>
+                            <div class="language-eng language-lg">
+                                <img src="/photos/flagUS.png" alt="">
+                                English
+                            </div>
+                        </div>
+                   </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blanks"  id="home"></div>
+    <div class="header-menu menu_tabphone">
+        <ul class="top-menu ">
+            <li>
+                <a href="/HTML/product_iphone.html">iPhone</a>
+            </li>
+            <li>
+                <a href="/HTML/product_ipad.html">iPad</a>
+            </li>
+            <li>
+                <a href="/HTML/product_mac.html">Mac</a>
+            </li>
+            <li>
+                <a href="/HTML/product_">Watch</a>
+            </li>
+            <li>
+                <a href="/HTML/product_">Âm thanh</a>
+            </li>
+            <li>
+                <a href="/HTML/product_">Phụ kiện</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu2_tabphone">
+        <ul class="menu2">
+            <li>
+                <a href="/HTML/form_register.html">Đăng ký tài khoản</a>
+            </li>
+            <li>
+                <a href="/HTML/form_login.html">Đăng nhập</a>
+            </li>
+            <li>
+                <a href="">Phụ kiện</a>
+            </li>
+            <li>
+                <a href="">Khuyến mãi</a>
+            </li>
+            <li class="li_last">
+                <a href="">Dịch vụ</a>
+            </li>
+        </ul>
+    </div>
+    <div class="background-header">
+        <a href=""><img class="background-header-img"src="/photos/banner1.png" alt=""></a>
+    </div>
+
+    <div class="main_layout grid">
+        <div class="grid wide main_layout_body">
+
+            <div class="row choose-container">
+                <div class="col l-2 m-2 c-2">
+                    <div class="choose-cate">
+                        <a href="#iphone"><img src="/photos/choose1.png" alt=""></a>
+                    </div>
+                    <p class="choose-txt">iPhone</p>
+                </div>
+
+                <div class="col l-2 m-2 c-2">
+                    <div class="choose-cate">
+                        <a href="#ipad" class="choose-setup2"><img src="/photos/choose2.png" alt=""></a>
+                    </div>
+                    <p class="choose-txt">iPad</p>
+                </div>
+
+                <div class="col l-2 m-2 c-2">
+                    <div class="choose-cate">
+                        <a href="#mac"><img src="/photos/choose3.png" alt=""></a>
+                    </div>
+                    <p class="choose-txt">Mac</p>
+                </div>
+
+                <div class="col l-2 m-2 c-2">
+                    <div class="choose-cate">
+                        <a href="#watch"><img src="/photos/choose4.png" alt=""></a>
+                    </div>
+                    <p class="choose-txt">Watch</p>
+                </div>
+
+                <div class="col l-2 m-2 c-2">
+                    <div class="choose-cate">
+                        <a href="#t"><img src="/photos/choose5.png" alt=""></a>
+                    </div>
+                    <p class="choose-txt">Âm thanh</p>
+                </div>
+
+                <div class="col l-2 m-2 c-2">
+                    <div class="choose-cate">
+                        <a href="#p" class="choose-setup2"><img src="/photos/choose6.png" alt=""></a>
+                    </div>
+                    <p class="choose-txt">Phụ kiện</p>
+                </div>
+                
+            </div>
+
+            <div class="topic_content row">
+                <div class="col l-4 m-12 c-12 " >
+                    <div class="topic_content-item topic_content-item1" >
+                        <a href=""><img src="/photos/topic_content_banner-1.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="col l-4 m-12 c-12">
+                    <div class="topic_content-item topic_content-item2">
+                        <a href="/HTML/product_mac.html"><img src="/photos/topic_content_banner-2.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="col l-4 m-12 c-12" >
+                    <div class="topic_content-item topic_content-item3">
+                        <a href=""><img src="/photos/topic_content_banner-3.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="col l-4 m-12 c-12" >
+                    <div class="topic_content-item topic_content-item3" id="iphone">
+                        <a href=""><img src="/photos/topic_content_banner-4.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="col l-4 m-12 c-12" >
+                    <div class="topic_content-item topic_content-item3">
+                        <a href=""><img src="/photos/topic_content_banner-6.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="col l-4 m-12 c-12"  >
+                    <div class="topic_content-item topic_content-item3">
+                        <a href=""><img src="/photos/topic_content_banner-5.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- block_items -->
+            <div class="block_items">
+                <div class="title_items">
+                    <p class="title_items-txt">iPhone</p>
+                </div>
+
+                <div class="row project_items_body">
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/iphone_1.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPhone 14 Pro 128GB</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">24.990.000₫</p>
+                                    <p class="price-2">30.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/iphone_2.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPhone 14 Pro Max 1TB</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">35.990.000₫</p>
+                                    <p class="price-2">40.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/iphone_3.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPhone 13 Pro 128GB</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">24.590.000₫</p>
+                                    <p class="price-2"></p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/iphone_4.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPhone 13 Pro Max 128GB</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">27.990.000₫</p>
+                                    <p class="price-2">29.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+                </div>
+
+                <div class="show-all_items">
+                    <a href="/HTML/product_iphone.html"><button class="show-all_" id="ipad">Xem tất cả iPhone</button></a>
+                </div>
+
+            </div>
+            <!-- end. -->
+
+            <!-- block_items -->
+            <div class="block_items">
+                <div class="title_items">
+                    <p class="title_items-txt">iPad</p>
+                </div>
+
+                <div class="row project_items_body">
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/ipad_1.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPad Pro M2 12.9 inch 5G</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">31.990.000₫</p>
+                                    <p class="price-2">35.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/ipad_2.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPad Pro M2 11 inch WiFi 128GB</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">20.990.000₫</p>
+                                    <p class="price-2">23.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/ipad_4.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPad Pro M1 12.9 inch 5G</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">29.290.000₫</p>
+                                    <p class="price-2">34.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/ipad_3.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPad Air 5 WiFi 256GB</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">18.390.000₫</p>
+                                    <p class="price-2">20.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+                </div>
+
+                <div class="show-all_items">
+                    <a href="/HTML/product_ipad.html"><button class="show-all_" id="mac">Xem tất cả iPad</button></a>
+                </div>
+
+            </div>
+            <!-- end. -->
+
+            <!-- block_items -->
+            <div class="block_items">
+                <div class="title_items">
+                    <p class="title_items-txt">Mac</p>
+                </div>
+
+                <div class="row project_items_body">
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/mac-1.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">MacBook Pro 16 inch M2 Pro 2023</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">60.290.000₫</p>
+                                    <p class="price-2">65.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/mac-2.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">MacBook Air M2 2022 10-core GPU</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">37.790.000₫</p>
+                                    <p class="price-2">46.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/mac-3.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">MacBook Pro 16 inch M1 Pro 2021</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">48.790.000₫</p>
+                                    <p class="price-2">63.190.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/mac-4.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">MacBook Pro 13 inch M2 2022</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">37.790.000₫</p>
+                                    <p class="price-2">45.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+                </div>
+
+                <div class="show-all_items">
+                    <a href="/HTML/product_mac.html"><button class="show-all_" id="watch">Xem tất cả Mac</button></a>
+                </div>
+
+            </div>
+            <!-- end. -->
+
+            <!-- block_items -->
+            <div class="block_items">
+                <div class="title_items">
+                    <p class="title_items-txt">Watch</p>
+                </div>
+
+                <div class="row project_items_body">
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/watch-1.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">Apple Watch SE 2022 LTE</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">8.990.000₫</p>
+                                    <p class="price-2"></p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/watch-2.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">Apple Watch S8 GPS + Cellular 41mm</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">17.990.000₫</p>
+                                    <p class="price-2"></p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/watch-3.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">Apple Watch Ultra GPS + Cellular 49mm Ocean Band</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">18.290.000₫</p>
+                                    <p class="price-2"></p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/watch-4.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">Apple Watch Ultra LTE 49mm Ocean Band</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">19.490.000₫</p>
+                                    <p class="price-2">20.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+                </div>
+
+                <div class="show-all_items">
+                    <a href=""><button class="show-all_" id="t">Xem tất cả Watch</button></a>
+                </div>
+
+            </div>
+            <!-- end. -->
+
+             <!-- block_items -->
+             <div class="block_items">
+                <div class="title_items">
+                    <p class="title_items-txt">Âm thanh</p>
+                </div>
+
+                <div class="row project_items_body">
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/t-1.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPad Pro M2 12.9 inch 5G</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">31.990.000₫</p>
+                                    <p class="price-2">35.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/t-2.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPad Pro M2 11 inch WiFi 128GB</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">20.990.000₫</p>
+                                    <p class="price-2">23.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/t-3.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPad Pro M1 12.9 inch 5G</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">29.290.000₫</p>
+                                    <p class="price-2">34.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/t-4.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPad Air 5 WiFi 256GB</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">18.390.000₫</p>
+                                    <p class="price-2">20.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+                </div>
+
+                <div class="show-all_items">
+                    <a href=""><button class="show-all_" id="p">Xem tất cả Âm thanh</button></a>
+                </div>
+
+            </div>
+            <!-- end. -->
+
+             <!-- block_items -->
+             <div class="block_items">
+                <div class="title_items">
+                    <p class="title_items-txt">Phụ kiện</p>
+                </div>
+
+                <div class="row project_items_body">
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/p-1.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPad Pro M2 12.9 inch 5G</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">31.990.000₫</p>
+                                    <p class="price-2">35.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/p-2.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPad Pro M2 11 inch WiFi 128GB</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">20.990.000₫</p>
+                                    <p class="price-2">23.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/p-3.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPad Pro M1 12.9 inch 5G</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">29.290.000₫</p>
+                                    <p class="price-2">34.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- item -->
+                    <div class="col l-3 m-4 c-6">
+                        <a href=""><div class="project_item project_item-1">
+                            <div class="project_tag"></div>
+                            <div class="project_img">
+                                <img src="/photos/p-4.png" alt="">
+                            </div>
+
+                            <div class="project_details">
+                                <div class="project_details-name">iPad Air 5 WiFi 256GB</div>
+                                <div class="project_details-prices">
+                                    <p class="price-1">18.390.000₫</p>
+                                    <p class="price-2">20.990.000₫</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                    <!-- end -->
+                </div>
+
+                <div class="show-all_items">
+                    <a href=""><button class="show-all_">Xem tất cả Phụ kiện</button></a>
+                </div>
+
+            </div>
+            <!-- end. -->
+            
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <div class="on_top">
+        <a href="#home" class="on_top-home">
+            <i class='bx bx-up-arrow-alt'></i>
+        </a>
+    </div>
+    
+</body>
+<script src="/JavaScript/main_layout.js"></script>
+<script src="/JavaScript/footer.js"></script>
+</html>

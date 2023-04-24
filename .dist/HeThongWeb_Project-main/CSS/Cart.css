@@ -1,0 +1,134 @@
+body{
+    background-color: black;
+}
+
+.grid.container_cart{
+    padding-bottom: 50px;
+}
+
+.content_cart{
+    background-color: black;
+    padding: 0 0 30px 0;
+}
+
+.cart_main,.cart_infor{
+    border: 2px solid #323232;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.cart_infor{
+    height: 533.2px;
+}
+
+.cart_main-img{
+    width: 100%;
+    text-align: center;
+}
+
+.cart_main-img img{
+    height: 300px;
+}
+
+.cart_main-text{
+    color: white;
+    text-shadow: -2px 0 #B64DE2, 0 1px #d26cfe,1px 0 #d87dff, 0 -2px #c235ff;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: monospace;
+    margin-bottom: 50px;
+}
+
+.cart_main-btn{
+    border-top: 0.5px solid #616161;
+    display: flex;
+    justify-content: center;
+}
+
+.cart_button{
+    color: white;
+    font-weight: bold;
+    border: none;
+    background: linear-gradient(135deg,#fda6f6,#B64DE2,#7817a4,#4d0c6b);
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    padding: 13px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.cart_next{
+    margin-left: 15px;
+}
+
+.cart_input{
+    position: relative;
+}
+.cart_voucher-ip{
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ca4fff;
+    background-color: transparent;
+}
+
+.cart_voucher-ip::placeholder{
+    color:white ;
+   
+}
+
+.cart_voucher{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+    font-size: 16px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    background: linear-gradient(135deg,#B64DE2,#7817a4);
+}
+.cart_text{
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    margin: 35px 0;
+    color: #747474;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart_infor-check{
+    display: flex;
+    justify-content: space-evenly;
+    color: #747474;
+    margin-bottom: 33px;
+    margin-top: 30px;
+}
+
+.cart_infor-btn{
+    width: 100%;
+}
+
+.infor-btn{
+    width: 100%;
+    margin-top: 0;
+    background: #808080;
+}
+
+.infor-check{
+    width: 16px;
+}
+
+.cart-cart{
+    color: white;
+}

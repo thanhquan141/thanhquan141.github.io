@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer_grid{
+    background-color: #1D1D1F;
+    height: 510px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer_container{
+    padding-top: 50px;
+    height: 350px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer_block{
+    height: 320px;
+}
+
+.block1{
+    width: 100%;
+}
+
+.footer_logo{
+    text-align: left;
+    height: 48px;
+    width: 100%;
+}
+
+.footer_logo a img{
+    max-height: 48px;
+    object-fit: cover;
+}
+
+.footer_content{
+    height: 80%;
+    color: white;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.footer_icon{
+    margin-top: 20px;
+    display: flex;
+    font-size: 25px;
+    text-align: left;
+}
+
+.icon_footer{
+    margin-right: 15px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.content_text{
+    margin-top: 20px;
+}
+
+.bxl-facebook,
+.bxl-twitter{
+    color: rgb(0, 162, 255);
+}
+.bxl-youtube{
+    color: rgb(255, 0, 0);
+}
+.bxl-tiktok{
+    color: white;
+    text-shadow: -1px 0 rgb(255, 0, 0), 0 1px rgb(0, 255, 128),1px 0 rgb(255, 0, 0), 0 -1px rgb(34, 255, 0);
+}
+
+.header_title-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_block{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+i.bx.bx-chevron-down.down_title{
+    display: none;
+}
+
+.list_title{
+    list-style: none;
+    font-size: 15px;
+    line-height: 27px;
+    text-decoration: none;
+}
+
+.title_links a{
+    text-decoration: none;
+    color: #ccc;
+    display: flex;
+}
+
+.footer-phone{
+    font-size: 16px;
+    margin-left:5px;
+    color: rgb(0, 162, 255);
+}
+.footer_last{
+    display: flex;
+}
+.last_text{
+    color: white;
+    width: 60%;
+    color: #ccc;
+    font-size: 13px;
+}
+.footer_logo_last{
+    width: 40%;
+    text-align: right;
+}
+
+.footer_logo_last img{
+    width: 139px;
+    height: 42px;
+    object-fit: cover;
+    
+}
+.footer_newsletter-container{
+    background-color: black;
+    padding: 50px 0;
+}
+.footer_newsletter{
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.newsletter_input{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+}
+.input_newsletter{
+    color: white;
+    width: 100%;
+    padding: 13px;
+    border-radius: 40px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ca4fff;
+    background-color: transparent;
+}
+
+.btn_newsletter{
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    border: none;
+    border-radius: 40px;
+    background-color: blue;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: linear-gradient(135deg,#B64DE2,#7817a4);
+}
+.heading_newsletter{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+}

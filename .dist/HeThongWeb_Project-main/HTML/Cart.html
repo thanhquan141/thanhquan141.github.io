@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng của bạn</title>
+    <link rel="stylesheet" href="/CSS/grid_system.css">
+    <link rel="stylesheet" href="/CSS/Cart.css">
+    <link rel="stylesheet" href="/CSS/main_layout.css">
+    <link rel="stylesheet" href="/CSS/setup_tablet_mobile.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="search">
+        <div class="search_input">
+            <div class="search_input-form">
+                <input type="text" class="input-form-ip" placeholder="Nhập sản phẩm cần tìm!">
+            </div>
+        </div>
+        <div class="container_input"></div>
+    </div>
+    <div class="header" id="header">
+        <div class="header-content content">
+
+            <i class='bx bx-menu header-icon'></i>
+            <i class='bx bx-x header-icon' ></i>
+
+            <div class="header-logo">
+                <a href="/HTML/main_layout.html"><img src="/photos/logo_header.png" alt=""></a>
+            </div>
+
+            <div class="header-menu">
+                <ul class="top-menu">
+                    <li>
+                        <a href="/HTML/product_iphone.html">iPhone</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_ipad.html">iPad</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_mac.html">Mac</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_">Watch</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_">Âm thanh</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_">Phụ kiện</a>
+                    </li>
+                    <li>
+                        <a href="">Dịch vụ</a>
+                    </li>
+                    <li>
+                        <a href="">Trả góp</a>
+                    </li>
+                    <li>
+                        <a href="">Flash sale</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-link">
+                <div class="header-icon header-icon-search">
+                    <i class='bx bx-search-alt' ></i>
+                </div>
+                <a class="link-icon"href="/HTML/Cart.html"><div class="header-icon header-icon-bag">
+                    <i class='bx bx-shopping-bag' ></i>
+                    <span class="header-icon-bag-number">0</span>
+                    <div class="header-icon-bag-msg">Bạn không có sản phẩm nào trong giỏ hàng của bạn</div>
+                 </div></a>
+                <div class="header-icon header-icon-user">
+                   <a class="link-icon"href=""> <i class='bx bx-user'></i></a>
+                   <ul class="header-icon-user-list">
+                        <li class="user-list">
+                            <a href="/HTML/form_register.html">Tạo tài khoản ngay</a>
+                        </li>
+                        <li class="user-list">
+                            <a href="/HTML/form_login.html?">Đăng nhập</a>
+                        </li>
+                        <li class="list-icon-down user-list">
+                            <a href="">Ngôn ngữ</a>
+                            <i class='bx bx-chevron-down'></i>
+                        </li>
+
+
+                        <div class="language">
+                            <div class="language-viet language-lg">
+                                <img src="/photos/flagVN.png" alt="">
+                                Tiếng Việt
+                            </div>
+                            <div class="language-eng language-lg">
+                                <img src="/photos/flagUS.png" alt="">
+                                English
+                            </div>
+                        </div>
+                   </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blanks"  id="home"></div>
+    <div class="header-menu menu_tabphone">
+        <ul class="top-menu ">
+            <li>
+                <a href="/HTML/product_iphone.html">iPhone</a>
+            </li>
+            <li>
+                <a href="/HTML/product_ipad.html">iPad</a>
+            </li>
+            <li>
+                <a href="/HTML/product_mac.html">Mac</a>
+            </li>
+            <li>
+                <a href="/HTML/product_">Watch</a>
+            </li>
+            <li>
+                <a href="/HTML/product_">Âm thanh</a>
+            </li>
+            <li>
+                <a href="/HTML/product_">Phụ kiện</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu2_tabphone">
+        <ul class="menu2">
+            <li>
+                <a href="/HTML/form_register.html">Đăng ký tài khoản</a>
+            </li>
+            <li>
+                <a href="/HTML/form_login.html">Đăng nhập</a>
+            </li>
+            <li>
+                <a href="">Phụ kiện</a>
+            </li>
+            <li>
+                <a href="">Khuyến mãi</a>
+            </li>
+            <li class="li_last">
+                <a href="">Dịch vụ</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="grid">
+        <div class="grid wide">
+            <div class="itemscope"><a href="/HTML/main_layout.html">Trang chủ </a>><a href=""> Giỏ hàng</a></div>
+        </div>
+    </div>
+
+    <div class="grid content_cart">
+        <div class="grid wide container_cart">
+            <div class="row">
+                <div class="col l-8 m-12 c-12">
+                    <div class="cart_main">
+                        <div class="cart_main-img">
+                            <img src="/photos/background_cart.png" alt="">
+                        </div>
+
+                        <div class="cart_main-text">
+                            <p class="cart-txt">Giỏ hàng của bạn trống</p>
+                        </div>
+
+                        <div class="cart_main-btn">
+                            <a href="" class="cart-cart"><button class=" cart_button cart_update">Cập nhật giỏ hàng</button></a>
+                            <a href="" class="cart-cart"><button class=" cart_button cart_next">Tiếp tục mua sắm</button></a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col l-4 m-12 c-12">
+                    <div class="cart_infor">
+                        <div class="cart_input">
+                            <input type="text" class="cart_voucher-ip" placeholder="Nhập mã giảm giá">
+                            <button class="cart_voucher">Áp dụng</button>
+                        </div>
+
+                        <div class="cart_text">
+                            <p class="cart_text-left">Tên mã giảm giá:</p>
+                            <p class="cart_text-right">...</p>
+                        </div>
+
+                        <div class="cart_text">
+                            <p class="cart_text-left">Tên sản phẩm:</p>
+                            <p class="cart_text-right">...</p>
+                        </div>
+
+                        <div class="cart_text">
+                            <p class="cart_text-left">Số lượng:</p>
+                            <p class="cart_text-right">...</p>
+                        </div>
+
+                        <div class="cart_text">
+                            <p class="cart_text-left">Tổng phụ:</p>
+                            <p class="cart_text-right">...</p>
+                        </div>
+
+                        <div class="cart_text">
+                            <p class="cart_text-left">Tổng thanh toán:</p>
+                            <p class="cart_text-right">...</p>
+                        </div>
+
+                        <div class="cart_infor-check">
+                            <input type="checkbox" class="infor-check">
+                            <p class="infor-check-txt">Tôi đã đọc và đồng ý với điều khoản</p>
+                        </div>
+
+                        <div class="cart_infor-btn">
+                            <button class="infor-btn cart_button">Tiến hành thanh toán</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer"></div>
+
+    <div class="on_top">
+        <a href="#home" class="on_top-home">
+            <i class='bx bx-up-arrow-alt'></i>
+        </a>
+    </div>
+</body>
+<script src="/JavaScript/main_layout.js"></script>
+<script src="/JavaScript/footer.js"></script>
+</html>

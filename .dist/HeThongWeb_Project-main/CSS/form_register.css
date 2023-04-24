@@ -1,0 +1,65 @@
+
+.main_form_login{
+    /* background-image: url(/photos/background_login.png);
+    background-position:bottom ;
+    background-color: #000; */
+    height: 1000px;
+}
+.form_register{
+    height: auto;
+    margin-top: 45%;
+    z-index: 1;
+}
+.main_left{
+    height: 100%;
+    background-image: url(/photos/background_login.png);
+    background-position: center ;
+    transition: 0.5s;
+}
+.sex{
+    display: flex;
+    margin: 0;
+}
+.input-name,
+.input-pass,
+.pass,
+.login-btn,
+.input-email,
+.input-phone,
+.input-user,
+.input-pass2,
+.day,
+.sex{
+    color: white;
+    margin-bottom: 15px;
+}
+.day{
+    display: flex;
+    justify-content: space-between;
+}
+.day input{
+    color: rgb(255, 255, 255);
+    width: 30%;
+    padding: 14px;
+    border-radius: 5px;
+    border: 2px solid #d4d4d4;
+    background-color: transparent;
+}
+.day input::placeholder{
+    color: rgb(173, 173, 173);
+}
+.title-sex{
+    margin-right: 20px;
+}
+#male,
+#female{
+    margin-right: 5px;
+    width: 15px;
+}
+.nam{
+    margin-right: 20px;
+}
+
+.login-btn-register{
+    margin-top: 15px;
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/CSS/form_login.css">
+    <link rel="stylesheet" href="/CSS/main_layout.css">
+    <link rel="stylesheet" href="/CSS/setup_tablet_mobile.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="search">
+        <div class="search_input">
+            <div class="search_input-form">
+                <input type="text" class="input-form-ip" placeholder="Nhập sản phẩm cần tìm!">
+            </div>
+        </div>
+        <div class="container_input"></div>
+    </div>
+    <div class="header" id="header">
+        <div class="header-content content">
+
+            <i class='bx bx-menu header-icon'></i>
+            <i class='bx bx-x header-icon' ></i>
+
+            <div class="header-logo">
+                <a href="/HTML/main_layout.html"><img src="/photos/logo_header.png" alt=""></a>
+            </div>
+
+            <div class="header-menu">
+                <ul class="top-menu">
+                    <li>
+                        <a href="/HTML/product_iphone.html">iPhone</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_ipad.html">iPad</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_mac.html">Mac</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_">Watch</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_">Âm thanh</a>
+                    </li>
+                    <li>
+                        <a href="/HTML/product_">Phụ kiện</a>
+                    </li>
+                    <li>
+                        <a href="">Dịch vụ</a>
+                    </li>
+                    <li>
+                        <a href="">Trả góp</a>
+                    </li>
+                    <li>
+                        <a href="">Flash sale</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-link">
+                <div class="header-icon header-icon-search">
+                    <i class='bx bx-search-alt' ></i>
+                </div>
+                <a class="link-icon"href="/HTML/Cart.html"><div class="header-icon header-icon-bag">
+                    <i class='bx bx-shopping-bag' ></i>
+                    <span class="header-icon-bag-number">0</span>
+                    <div class="header-icon-bag-msg">Bạn không có sản phẩm nào trong giỏ hàng của bạn</div>
+                 </div></a>
+                <div class="header-icon header-icon-user">
+                   <a class="link-icon"href=""> <i class='bx bx-user'></i></a>
+                   <ul class="header-icon-user-list">
+                        <li class="user-list">
+                            <a href="/HTML/form_register.html">Tạo tài khoản ngay</a>
+                        </li>
+                        <li class="user-list">
+                            <a href="/HTML/form_login.html">Đăng nhập</a>
+                        </li>
+                        <li class="list-icon-down user-list">
+                            <a href="">Ngôn ngữ</a>
+                            <i class='bx bx-chevron-down'></i>
+                        </li>
+
+
+                        <div class="language">
+                            <div class="language-viet language-lg">
+                                <img src="/photos/flagVN.png" alt="">
+                                Tiếng Việt
+                            </div>
+                            <div class="language-eng language-lg">
+                                <img src="/photos/flagUS.png" alt="">
+                                English
+                            </div>
+                        </div>
+                   </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blanks"  id="home"></div>
+    <div class="header-menu menu_tabphone">
+        <ul class="top-menu ">
+            <li>
+                <a href="/HTML/product_iphone.html">iPhone</a>
+            </li>
+            <li>
+                <a href="/HTML/product_ipad.html">iPad</a>
+            </li>
+            <li>
+                <a href="/HTML/product_mac.html">Mac</a>
+            </li>
+            <li>
+                <a href="/HTML/product_">Watch</a>
+            </li>
+            <li>
+                <a href="/HTML/product_">Âm thanh</a>
+            </li>
+            <li>
+                <a href="/HTML/product_">Phụ kiện</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu2_tabphone">
+        <ul class="menu2">
+            <li>
+                <a href="/HTML/form_register.html">Đăng ký tài khoản</a>
+            </li>
+            <li>
+                <a href="/HTML/form_login.html">Đăng nhập</a>
+            </li>
+            <li>
+                <a href="">Phụ kiện</a>
+            </li>
+            <li>
+                <a href="">Khuyến mãi</a>
+            </li>
+            <li class="li_last">
+                <a href="">Dịch vụ</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main_form_login form_register">
+        <div class="main_left" data-aos="fade-up"></div>
+
+        <div class="main_right" data-aos="fade-down">
+            <div class="form_login">
+                <form action="" class="login" id="login-form">
+                    <h2 class="title">Đăng nhập</h2>
+                    <p class="small-title">Username:</p>
+                    <input type="text" class="input input-name" id="username">
+                    <p class="small-title">Mật khẩu:</p>
+                    <input type="password" class="input input-pass" id="password">
+                    <div class="pass">
+                        <input type="checkbox" name="" id="" class="checkbox">
+                        <div class="check">
+                            <p class="text-check">Nhớ mật khẩu</p>
+                            <a href="" class="link">Quên mật khẩu?</a>
+                        </div>
+                    </div>
+                    <button class="login-btn" id="login-btn" type="submit">Đăng nhập</button>
+                    <p>Bạn Chưa Có Tài Khoản? <a href="/HTML/form_register.html">Tạo tài khoản ngay</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/JavaScript/main_layout.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="/JavaScript/aos.js"></script>
+</html>
